@@ -1,8 +1,11 @@
 {
+    "[python]": {
+        "editor.formatOnSave": true
+    },
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
     "python.linting.flake8Args": [
         "--config",
-        ".flake8"
+        "setup.cfg"
     ]
 }
