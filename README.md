@@ -15,6 +15,16 @@ Before following the next steps, make sure you have docker and docker-compose an
 1. `docker-compose up -d`
 1. Check with `docker ps` that you have the DB, scheduler  and webserver running.
 
+# final project dag
+
+It uses a DB running on Digital Ocean (dvdrental) which is a [PostgreSQL sample database](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
+
+The following schema will give you more details about how the pipeline works.
+
+All scripts executed in dataproc are in the `pyspark` folder.
+
+![elt](./images/final_project.png)
+
 # Articles
 - [Run Airflow with Docker](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
 - [Bsed on coder2j](https://github.com/coder2j/airflow-docker)
