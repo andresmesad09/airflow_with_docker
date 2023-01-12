@@ -27,8 +27,7 @@ QUERY_MOVER = {
     'category': 'SELECT * FROM category',
     'city': 'SELECT * FROM city',
     'country': 'SELECT * FROM country',
-    # remove PII
-    'customer': 'SELECT customer_id, store_id, address_id, activebool, create_date, last_update, active FROM customer',
+    'customer': 'SELECT * FROM customer',
     'film': 'SELECT * FROM film',
     'film_actor': 'SELECT * FROM film_actor',
     'film_category': 'SELECT * FROM film_category',
