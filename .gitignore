@@ -168,3 +168,5 @@ cython_debug/
 
 logs/
 screenshots.pdf
+.vscode/
+setup.cfg
